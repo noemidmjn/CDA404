@@ -10,12 +10,12 @@ picture {
 }
 
 .logo {
-    float: left;
+    display: inline;
 }
 
 nav {
     background-color: aliceblue;
-    width: 60%;
+    width: 100%;
     float: left;
     font-size: 20px;
 
@@ -57,7 +57,7 @@ h5 {
 }
 
 .hello {
-    width: 40%;
+    width: 100%;
     height: auto;
     margin: 1%;
     padding: 1%;
