@@ -10,12 +10,20 @@ picture {
 }
 
 .logo {
+<<<<<<< HEAD
     display: inline;
+=======
+    float: left;
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
 }
 
 nav {
     background-color: aliceblue;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 60%;
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
     float: left;
     font-size: 20px;
 
@@ -57,7 +65,11 @@ h5 {
 }
 
 .hello {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 40%;
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
     height: auto;
     margin: 1%;
     padding: 1%;

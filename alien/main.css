@@ -9,7 +9,10 @@
 
 a {
     color: white;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
 }
 
 #top {
@@ -72,6 +75,7 @@ h2 {
 }
 
 .footer {
+<<<<<<< HEAD
     position: fixed;
     left: 0;
     bottom: 0;
@@ -79,6 +83,17 @@ h2 {
     background-color: grey;
     color: white;
     text-align: center;
+=======
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #848484;
+
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
 }
 
 ul {
@@ -88,6 +103,7 @@ ul {
 ul li {
     display: inline;
     color: #ffffff;
+<<<<<<< HEAD
 }
 
 @media (max-width: 400px) {
@@ -100,4 +116,6 @@ ul li {
     }
     
 
+=======
+>>>>>>> bda8887ecc0d2751b16a690e0cac51f978519fe9
 }
