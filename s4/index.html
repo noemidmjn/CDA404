@@ -5,7 +5,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="main.css">
-        <title>none</title>
+        <title>My first form</title>
         
     </head>
+
+    <body>
+            <form action="http://www.google.com" method="post">
+                <p> <label for="name">Name:</label> <input type="text" name="name"> </p>
+                <p> <label for="email">Email:</label> <input type="text" name="email"> </p>
+                <p><input type="submit" name="Submit" value="Submit"></p>
+
+                <label for="rating">  Please enter rating   </label>
+                    <p><input type="radio" name="rating" value="excellent"> Excellent</p>
+                    <input type="radio" name="rating" value="good"> Good </p>
+                    <input type="radio" name="rating" value="bad"> Bad </p>
+
+                <label for="rating"> What device do you use  </label>
+                    <p><input type="checkbox" name="rating" value="ipad"> Ipad</p>
+                    <input type="checkbox" name="rating" value="tv"> TV </p>
+                    <input type="checkbox" name="rating" value="video"> Video </p>
+
+                <select name="Select" id="select">
+                    <option value="standard">Standard</option>
+                    <option value="2-day">2-day</option>
+                    <option value="overnight">Overnight</option>
+                </select>
+
+                <p><label  for="suggestion"> Enter a suggestion </label></p>    
+                <p><textarea name="suggestions" rows="5" cols="25">
+                    my suggestions are: 
+                </textarea></p>
+
+                <fieldset>
+                    <legend> Name </legend>
+                    <p> <label> First Name: </label> <input type = "text" name="firstName"> </p>
+                    <p><label> Last Name: </label> <input type  = "text" name="lastName"> </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Transport </legend>
+                    <p><input type="checkbox" name="vehicle" value="Bike">I have a bike<p>
+                    <p><input type="checkbox" name="vehicle" value="Car">I have a car </p>
+                </fieldset>
+
+
+            </form>
+
+            <form id="payment">
+                    <!-- personal details -->
+                    <fieldset>
+                        <legend>Payment</legend>
+                        <p><label for="firstName"> First Name </label> <input type = "text" name="firstName" required> </p>
+                        <p><label for="credit_card_information"> Credit Card Information </label> <input type  = "text" name="credit_card_information"> </p>
+                    </fieldset>
+                    <input type="submit">
+            </form>
+        
+    </body>
+
 </html>
