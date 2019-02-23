@@ -59,17 +59,30 @@ h3 {
     float: left;
 }
 
-#skills_table {
-    align-content: center;
-    background-color: white;
-
-}
-
 table {
+    margin: 10% 30%;
+    width: 30%;
     border: 2px solid black;
 }
 
+th, td {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: left;
+}
+
+th {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid black;
+}
+
 #footer {
+    padding: 10px 10px 5% 10px;
     height: 15%;
     margin: 10px;
     background-color: grey;
