@@ -5,7 +5,12 @@
 }
 
 body {
-    background-color: lavender;
+    background-color: #FFFAFA;
+}
+
+h1 {
+    margin: 1%;
+    padding: 1%;
 }
 
 h1, h2 {
@@ -14,18 +19,80 @@ h1, h2 {
 
 #wrapper {
     width: 80%;
-    background-color: bisque;
+    height: auto;
+    background-color: #f5f5dc;
+}
+
+nav {
+
 }
 
 nav ul li {
     display: inline;
 }
 
-nav ul li a {
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
     color: black;
     text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+}
+
+#main_section {
+    color: #2f4f4f;
 }
 
 #footer {
+    width: 100%;
     text-align: center;
+    position: bottom;
+    float: left;
+}
+
+article {
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+#contact {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+form {
+    float: left;
+    text-align: left;
+}
+
+label {
+    margin: 1%;
+    padding: 1%;
+}
+
+input {
+    margin: 1%;
+    padding-block-end: 1%;
+}
+
+#checkout {
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+    article {
+        margin: 1%;
+        padding: 1%;
+        width: 95%;
+    }
 }
