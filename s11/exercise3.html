@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--
+        This script in included in the head so we need to call it
+     -->
+    <script type="text/javascript">
+        // This is a function
+        function calculateNumber(){
+            var number1 =  parseInt(document.getElementById("number1").value);
+            var number2 =  parseInt(document.getElementById("number3").value);
+            var number3 =  parseInt(document.getElementById("number3").value);
+
+            var result = number1 + number2 + number3;
+
+            document.getElementById("result").innerHTML = "Sum=" + result;
+
+
+        } //end function 
+    </script>
+    <title>Calculator</title>
+</head>
+<body>
+    <p> <input type="number" placeholder="Enter number 1" id="number1">  </p>
+    <p> <input type="number" placeholder="Enter number 2" id="number2">  </p>   
+    <p> <input type="number" placeholder="Enter number 3" id="number3">  </p>      
+    <p> <button onClick="calculateNumber()">Calculate</button> </p> 
+    <p id="result"></p>
+</body>
+</html>
