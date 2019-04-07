@@ -6,8 +6,19 @@ function main() {
 
 function buttonClicked () {
     var guessedNumber = document.getElementById("num_guessed");
-    if guessedNumber === randomNumber {
-
+    if (guessedNumber === randomNumber) {
+        console.log("An exact match!");
     }
+    else if (guessedNumber < randomNumber) {
+        console.log("Smaller than the number");
+    }
+
+    else if (guessedNumber > randomNumber) {
+        console.log("Larger than the number");
+    }
+
+
 }
+
+
 
